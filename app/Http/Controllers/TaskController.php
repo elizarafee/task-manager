@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class TaskController extends Controller
 {
     public function index() {
-        echo "index";
+        return view('tasks.index');
     }
 
     public function create() {
