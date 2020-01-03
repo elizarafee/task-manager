@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Task Manager | @yield('title')</title>
 
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    <!-- Style -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
